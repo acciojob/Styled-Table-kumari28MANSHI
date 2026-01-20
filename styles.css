@@ -1,1 +1,46 @@
 /* your code */
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+.table-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #1f5b88;
+  color: white;
+}
+
+thead th {
+  padding: 18px 22px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+tbody td {
+  padding: 22px;
+  font-size: 18px;
+  color: #333;
+}
+
+tbody tr:nth-child(even) {
+  background: #d9d9d9;
+}
+
+tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
